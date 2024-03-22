@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> login</title>
+    <style>
+        *{
+            padding: o;
+            margin: 0;
+            box-sizing:border-box ;
+        }
+        .fb{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            background: whitesmoke;
+            height: 100vh;
+            padding: 0 10%;
+
+        }
+        .fb h1{
+            color: blue;
+            font-weight: 900;
+            font-size: 3.5rem;
+        }
+        .fb p{
+            font-size: 1.5rem;
+        }
+        .fb form{
+            text-align: center;
+            background: white;
+            padding: 40px 20px;
+            border-radius: 6px;
+        }
+        .fb input{
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border: none;
+            border: 1px solid grey;
+        }
+        .fb .btn1{
+            line-height: 48px;
+            border-radius: 6px;
+            width: 100%;
+            font-size: 20px;
+            border: none;
+            border: 1px solid grey;
+            background: #1877f2;
+            color: white;
+            margin: 5px 0;
+        }
+        .fb a{
+            text-decoration: none;
+        }
+        .fb .btn2{
+            line-height: 38px;
+            padding: 0 16px;
+            border-radius: 6px;
+            font-size: 20px;
+            border: none;
+            border: 1px solid grey;
+            background: #049917;
+            color: white;
+            margin: 5px 0;
+        }
+        #a{
+            text-align: center;
+            font-size: 0.900rem;
+            padding: 5px 0;
+        }
+        @media only screen and (max-width:768px){
+            .fb{
+                display: block;
+            }
+            .fb div:first-child{
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+ <div class="fb">
+    <div>
+        <h1> The NewsFeed</h1>
+        <p>Telling world news  around you </p>
+    </div>
+    <div>
+        <form action="">
+            <input type="text" placeholder="Email or phone number">
+            <input type="password" placeholder="password">
+            <button class="btn1">Log in</button>
+            <a href="">forgot password</a>
+            <hr>
+            <button class="btn2"> create new account</button>
+        </form>
+        <p id="a"> <a href=""> <b>create a page</b> for a celebrity,brand or business news $ more </a></p>
+    </div>
+ </div>
+</body>
+</html>

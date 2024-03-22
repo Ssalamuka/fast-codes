@@ -1,0 +1,100 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    body {
+        background-color: #0ede30; /* Replace #f0f0f0 with the desired color code */
+    } 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation{
+font: #ffffff;
+}
+
+/* Header styles */
+header {
+    background-color: #2a7c09;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #111010;
+    text-decoration: none;
+}
+
+/* Main Content styles */
+main {
+    padding: 20px 0;
+}
+
+.featured-article, .latest-news {
+    margin-bottom: 40px;
+}
+
+.featured-article h2, .latest-news h2 {
+    margin-bottom: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:white;
+
+}
+
+.article p {
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #0b76e8;
+    transition: border-color 0.3s;
+}
+
+.read-more:hover {
+    border-color: transparent;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
